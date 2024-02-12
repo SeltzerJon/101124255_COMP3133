@@ -9,7 +9,7 @@ const app = express();
 app.use(bodyParser.json());
 
 
-const DB_CONNECTION = 'mongodb+srv://jon:DIfxiDkVY0OQvbWe@cluster0.j4ebflz.mongodb.net/test?retryWrites=true&w=majority';
+const DB_CONNECTION = "";
 mongoose.connect(DB_CONNECTION, {
     useNewUrlParser: true,
     useUnifiedTopology: true,

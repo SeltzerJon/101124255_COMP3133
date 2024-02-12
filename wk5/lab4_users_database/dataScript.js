@@ -9,7 +9,7 @@ const testDataPath = path.join(__dirname, 'User.json');
 const testData = JSON.parse(fs.readFileSync(testDataPath, 'utf-8'));
 
 
-const DB_CONNECTION_STRING = "mongodb+srv://jon:DIfxiDkVY0OQvbWe@cluster0.j4ebflz.mongodb.net/test?retryWrites=true&w=majority";
+const DB_CONNECTION_STRING = "";
 mongoose.connect(DB_CONNECTION_STRING, {
 useNewUrlParser: true,
  useUnifiedTopology: true,
